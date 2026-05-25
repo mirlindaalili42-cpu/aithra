@@ -166,9 +166,9 @@ elif selected == "About":
         st.markdown("---")
 
         st.write(
-            ""This platform is based on the masters thesis"
+            "This platform is based on the masters thesis"
             "Perspectives on Security and Defence among Young Europeans and in the Media:"
-            "A Cross-National Discourse Analysis on Communication Challenges for the Defence Industry."" 
+            "A Cross-National Discourse Analysis on Communication Challenges for the Defence Industry." 
         )
 
         st.markdown("### Research focus")
