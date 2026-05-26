@@ -658,17 +658,15 @@ elif selected == "Discourse Analysis":
 elif selected == "Visuals":
     st.title("Visuals")
     st.write("This is the Visuals screen.")
-    
-    
-st.markdown("## Visuals")
+    st.markdown("## Visuals")
 
-col1, col2 = st.columns(2)
+    col1, col2 = st.columns(2)
 
-with col1:
-    st.image("images/visual1.jpg", caption="Visual 1", use_container_width=True)
+    with col1:
+        st.image("images/visual1.png", caption="Visual 1", use_container_width=True)
 
-with col2:
-    st.image("images/visual2.jpg", caption="Visual 2", use_container_width=True)
+    with col2:
+        st.image("images/visual2.png", caption="Visual 2", use_container_width=True)
     
 # Guide screen
 elif selected == "Guide":
