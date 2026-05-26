@@ -37,6 +37,12 @@ st.markdown("""
     </a>
 """, unsafe_allow_html=True)
 
+[theme]
+base = "light"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F0F2F6"
+textColor = "#000000"
+
 # Menu setup
 menu_options = ["About", "Theory", "Discourse Analysis", "Visuals", "Guide"]
 page = st.query_params.get("page", "landing")
